@@ -1,0 +1,147 @@
+* {
+  font-family: Sans-serif;
+}
+body
+{
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+}
+.header {
+  width: 100%;
+}
+/* Menu Items */
+.menu_items {
+  float: right;
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 70%;
+  font-weight: 500;
+}
+.menu_item {
+  padding: 12px;
+}
+.menu_item .offer {
+  display: inline;
+  padding: 4px;
+  background-color: orange;
+  border-radius: 7px;
+}
+.menu_item .login {
+  padding: 8px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 2px;
+  color: rgb(37,40,236);
+}
+.menu_item .register {
+  padding: 8px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 2px;
+  background-color: rgb(37,40,236);
+  color: white;
+}
+.title_img {
+  width: 20%;
+  height: 80px;
+  float: left;
+}
+/* All images span to its container */
+img {
+  width: 100%;
+  height: 100%;
+}
+.menu_item a {
+  text-decoration: none;
+  color: black;
+}
+hr {
+  width:100%;
+}
+/* Search area */
+.search {
+  padding: 20px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.search input {
+  margin: auto;
+  width: 40%;
+}
+.search button {
+  background: rgb(37,40,236);
+  color: white;
+}
+
+/* Banner Slideshow code*/
+.mySlides {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+img {
+  vertical-align: middle;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  width: 90%;
+  height: 250px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Toggle active dots */
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding-top: 40px;
+}
+.details a {
+  float: right;
+  text-decoration: none;
+}
+.cities {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  list-style: none;
+}
+figcaption {
+  padding: 10px;
+}

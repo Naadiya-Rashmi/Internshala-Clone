@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="scripts.js"></script>
+    <title >Internships | Summer Internship 2021</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="title_img"><img src="icon.jpg" /></div>
+        <ul class="menu_items">
+          <li class="menu_item">
+            <a href="#">Internships</a>
+          </li>
+          <li class="menu_item">
+            <a href="#">Online Trainings <div class="offer">OFFER</div></a>
+          </li>
+          <li class="menu_item">
+            <a href="#">Fresher Jobs</a>
+          </li>
+          <li class="menu_item">
+            <a href="#"><div class="login">Login</div></a>
+          </li>
+          <li class="menu_item">
+            <a href="#"><div class="register">Register</div></a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <hr>
+    <div class="search"><input type="text" placeholder="What are you looking for?" >
+    <button type="submit"><i class="fa fa-search"></i></button>
+    </div>
+<div class="slideshow-container">
+<div class="mySlides fade">
+  <img src="banner1.jpeg" style="width:80%">
+</div>
+<div class="mySlides fade">
+  <img src="banner2.jpeg" style="width:80%">
+</div>
+<div class="mySlides fade">
+  <img src="banner3.jpeg" style="width:80%">
+</div>
+<div class="mySlides fade">
+  <img src="banner4.jpeg" style="width:80%">
+</div>
+<div class="mySlides fade">
+  <img src="banner5.jpeg" style="width:80%">
+</div>
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+    <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+   </script>
+   <div>
+     <h1>Internships</h1>
+     <div><p>Apply to 10,000+ internships for free</p></div>
+     <div class="details"><a href="#">View all internships <i class="fa fa-long-arrow-right"></i></a></div>
+   </div>
+   <div class="container">
+   <div><h3>Popular Cities</h3></div>
+   <ul class="cities">
+     <li class="city">
+       <figure>
+         <img src="1.jpg" style="width:50px">
+         <figcaption style="text-align:center">WFH</figcaption>
+       </figure>
+     </li>
+     <li class="city">
+       <figure>
+         <img src="2.jpg" style="width:50px">
+         <figcaption style="text-align:center">Delhi</figcaption>
+       </figure>
+     </li>
+<li class="city">
+       <figure>
+         <img src="3.jpg" style="width:50px">
+         <figcaption style="text-align:center">Bangalore</figcaption>
+       </figure>
+     </li>
+<li class="city">
+       <figure>
+         <img src="4.jpg" style="width:50px">
+         <figcaption style="text-align:center">Mumbai</figcaption>
+       </figure>
+     </li>
+<li class="city">
+       <figure>
+         <img src="5.jpg" style="width:50px">
+         <figcaption style="text-align:center">Hyderabad</figcaption>
+       </figure>
+     </li>
+<li class="city">
+       <figure>
+         <img src="6.jpg" style="width:50px">
+         <figcaption style="text-align:center">Chennai</figcaption>
+       </figure>
+     </li>
+<li class="city">
+       <figure>
+         <img src="7.jpg" style="width:50px">
+         <figcaption style="text-align:center">Kolkotta</figcaption>
+       </figure>
+     </li>
+<li class="city">
+       <figure>
+         <img src="8.jpg" style="width:50px">
+         <figcaption style="text-align:center">International</figcaption>
+       </figure>
+     </li>
+     </ul>
+   </div>
+   </div>
+  </body>
+</html>
